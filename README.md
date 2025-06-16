@@ -12,7 +12,8 @@ Music tool with Spotify/Youtube playlist extraction and more.
 - 🔒 **Privacy Focused**: No telemetry, diagnostics or user data collection
 - 📖 **Open Source**: Free and libre software under BSD-3-Clause license
 
-**Note**: It is still **recommended** to support creators by engaging with their YouTube channels/Spotify tracks (or preferably by buying their merch/concert tickets/physical media).
+> [!NOTE]
+> It is still **recommended** to support creators by engaging with their YouTube channels/Spotify tracks (or preferably by buying their merch/concert tickets/physical media).
 
 ## 🚀 Installation
 
