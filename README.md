@@ -91,7 +91,8 @@ python app.py "Artist Song" --path "/path/to/downloads"
 
 ## ⚠️ Legal Notice
 
-This software is provided for educational and personal use only. Users are responsible for complying with applicable copyright laws and terms of service. Please support artists by purchasing their music.
+> [!CAUTION]
+>This software is provided for educational and personal use only. Users are responsible for complying with applicable copyright laws and terms of service. Please support artists by purchasing their music.
 
 ## 🤝 Contributing
 
