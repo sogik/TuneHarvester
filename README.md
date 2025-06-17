@@ -2,7 +2,7 @@
 
 Music tool with Spotify/Youtube playlist extraction and more.
 
-## 🌟 Features
+## Features
 
 - 🎵 **Multiple Sources**: Spotify playlists, YouTube playlists, individual tracks
 - 📋 **Smart Metadata**: Combines Spotify API + Last.fm for complete track information
@@ -12,9 +12,10 @@ Music tool with Spotify/Youtube playlist extraction and more.
 - 🔒 **Privacy Focused**: No telemetry, diagnostics or user data collection
 - 📖 **Open Source**: Free and libre software under BSD-3-Clause license
 
-**Note**: It is still **recommended** to support creators by engaging with their YouTube channels/Spotify tracks (or preferably by buying their merch/concert tickets/physical media).
+> [!NOTE]
+> It is still **recommended** to support creators by engaging with their YouTube channels/Spotify tracks (or preferably by buying their merch/concert tickets/physical media).
 
-## 🚀 Installation
+## Installation
 
 1. **Clone repository**:
 
@@ -36,7 +37,7 @@ cp .env.example .env
 # Edit .env with your credentials
 ```
 
-## 🔑 Get Credentials
+## Get Credentials
 
 ### Spotify API (Required for Spotify playlists)
 
@@ -50,52 +51,49 @@ cp .env.example .env
 2. Create a developer account
 3. Copy your **API Key** to `.env`
 
-## 💡 Usage
+## Usage
 
-### 📋 Spotify Playlist
+### Spotify Playlist
 
 ```bash
 python app.py "https://open.spotify.com/...." --playlist-name "Today's Top Hits"
 ```
 
-### 📹 YouTube Playlist
+### YouTube Playlist
 
 ```bash
 python app.py "https://www.youtube.com/playlist?list=...." --playlist-name "My Mix"
 ```
 
-### 🎵 Individual Song
+### Individual Song
 
 ```bash
 python app.py "Artist Song"
 ```
 
-### 📄 Text File Playlist
+### Text File Playlist
 
 ```bash
 python app.py my_songs.txt --playlist-name "Custom Mix"
 ```
 
-### 📤 Extract Only (No Download)
+### Extract Only (No Download)
 
 ```bash
 python app.py "https://open.spotify.com/playlist/..." --extract-only
 ```
 
-### 🎯 Custom Download Path
+### Custom Download Path
 
 ```bash
 python app.py "Artist Song" --path "/path/to/downloads"
 ```
 
-## ⚠️ Legal Notice
+## Legal Notice
 
-This software is provided for educational and personal use only. Users are responsible for complying with applicable copyright laws and terms of service. Please support artists by purchasing their music.
+> [!CAUTION]
+> This software is provided for educational and personal use only. Users are responsible for complying with applicable copyright laws and terms of service. Please support artists by purchasing their music.
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 💼 License
+## License
 
 TuneHarvester is open source and licensed under the [BSD-3-Clause](/LICENSE) License.
